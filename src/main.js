@@ -1,8 +1,8 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-class Home extends React.Component {
+import FrontPages from "./components/FrontPages"
+export default class Main extends React.Component {
   render() {
-    return <Text>Hellow</Text>;
+    return <FrontPages />
   }
 }
-export default Home;
+ ;
