@@ -9,14 +9,16 @@ export const styles = StyleSheet.create({
   },
   backgroundImage: {
     flex: 1,
-    resizeMode: "cover",
-   
+    resizeMode: "cover"
   },
-  text: {
+  Overlay: {
     position: "absolute",
-    color: "#ffffff",
-    top:50,
-    left:0,
-    zIndex:1
+    top: 50,
+    left: 0,
+    zIndex: 1
+  },
+  header: {
+    fontSize: 40,
+    color: "#ffffff"
   }
 });
